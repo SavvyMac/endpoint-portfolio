@@ -2,7 +2,7 @@
 Endpoint platform case studies: MECM/SCCM OSD, Intune + Apple Business Manager/VPP, Okta identity controls, PowerShell/Python automation, REST API integrations, and change-control practices.
 
 
-Scott Wells — Endpoint Engineering Portfolio (Sanitized)
+Scott Wells — Endpoint Engineering Portfolio
 
 I build and operate endpoint platforms that are secure, scalable, and supportable. My work focuses on automation, change control, compliance posture, and making deployments boring (the highest compliment in IT). Below are representative projects, sanitized to avoid proprietary details.
 
