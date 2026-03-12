@@ -15,21 +15,21 @@ Scope: Domain-joined Windows 10/11 imaging + application deployment for 2,500+ e
 
 Approach:
 
-Stood up an SCCM/SQL lab in two weeks to validate changes before production.
+• Stood up an SCCM/SQL lab in two weeks to validate changes before production.
 
-Stabilized production SCCM, packaged OSD apps, and created a standardized OSD image.
+• Stabilized production SCCM, packaged OSD apps, and created a standardized OSD image.
 
-Led three contractor workstreams (Imaging/Deployment, App Packaging, SCCM Administration).
+• Led three contractor workstreams (Imaging/Deployment, App Packaging, SCCM Administration).
 
-Served as sole OSD architect; ran legacy and new laptops in parallel and executed staged cutovers.
+• Served as sole OSD architect; ran legacy and new laptops in parallel and executed staged cutovers.
 
-Built repeatable deployment practices: verification steps, rollback thinking, and documentation.
+• Built repeatable deployment practices: verification steps, rollback thinking, and documentation.
 
 Outcome:
 
-Delivered staged cutovers with zero user-visible business disruption during endpoint migration.
+• Delivered staged cutovers with zero user-visible business disruption during endpoint migration.
 
-Improved reliability and repeatability of deployment processes across teams.
+• Improved reliability and repeatability of deployment processes across teams.
 
 Tools: MECM/SCCM, Windows ADK/OSD, SQL, GPO/AD, documentation/runbooks
 
@@ -41,17 +41,17 @@ Scope: Fleet-wide endpoint and identity control implementation aligned to regula
 
 Approach:
 
-Implemented Absolute Persistence, LAPS, and Okta identity management in partnership with cybersecurity leadership.
+• Implemented Absolute Persistence, LAPS, and Okta identity management in partnership with cybersecurity leadership.
 
-Built operational processes aligned to CMMC 2.0 control requirements and produced audit-ready evidence habits.
+• Built operational processes aligned to CMMC 2.0 control requirements and produced audit-ready evidence habits.
 
-Co-designed an always-on Palo Alto GlobalProtect VPN approach so new devices could join domain, receive GPOs, and access internal resources securely from first boot.
+• Co-designed an always-on Palo Alto GlobalProtect VPN approach so new devices could join domain, receive GPOs, and access internal resources securely from first boot.
 
 Outcome:
 
-Stronger privileged access controls and improved identity/endpoint alignment.
+• Stronger privileged access controls and improved identity/endpoint alignment.
 
-Increased reliability of management posture for remote/distributed devices.
+• Increased reliability of management posture for remote/distributed devices.
 
 Tools: Okta, LAPS, Absolute Persistence, Palo Alto GlobalProtect, AD/GPO, compliance reporting/audit trails
 
@@ -63,27 +63,27 @@ Scope: Large Windows fleet plus mobile; Apple ecosystem integration; packaging a
 
 Approach (Intune/Apple):
 
-Took an Intune tenant that existed “on paper” and stood up core capabilities end-to-end.
+• Took an Intune tenant that existed “on paper” and stood up core capabilities end-to-end.
 
-Integrated Apple Business Manager (ABM) + VPP and built baseline compliance/configuration policies.
+• Integrated Apple Business Manager (ABM) + VPP and built baseline compliance/configuration policies.
 
-Standardized enrollment patterns and produced runbooks to make operations repeatable.
+• Standardized enrollment patterns and produced runbooks to make operations repeatable.
 
 Approach (Packaging/Automation):
 
-Built a modular PowerShell packaging framework with structured logging.
+• Built a modular PowerShell packaging framework with structured logging.
 
-Created Python automation for version detection/validation (web parsing + regex).
+• Created Python automation for version detection/validation (web parsing + regex).
 
-Implemented JSON-driven REST API integration to populate UEM metadata (vendor/version/dependencies).
+• Implemented JSON-driven REST API integration to populate UEM metadata (vendor/version/dependencies).
 
-Established Git/Bitbucket workflows (branch-per-engineer + merge discipline) to scale collaboration.
+• Established Git/Bitbucket workflows (branch-per-engineer + merge discipline) to scale collaboration.
 
 Outcome:
 
-More consistent device posture and reduced operational drift.
+• More consistent device posture and reduced operational drift.
 
-Reduced manual packaging/metadata work; improved repeatability and traceability.
+• Reduced manual packaging/metadata work; improved repeatability and traceability.
 
 Tools: Intune, ABM/VPP, PowerShell, Python, REST APIs/JSON, Git/Bitbucket, Workspace ONE UEM, ServiceNow KB/runbooks
 
